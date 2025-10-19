@@ -38,4 +38,5 @@ Then run a script:
 
 # Notes
 These scripts are created for my learning and portfolio.
+I use some of them in Task Shedule and run them automatically every week.
 
