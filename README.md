@@ -12,11 +12,11 @@ A collection of PowerShell scripts I use to learn and automate common Windows sy
 
 |--------|--------------|
 
-| `system\_report.ps1` | Gathers system information (CPU, memory, disk, OS version) and exports it to CSV |
+| `SysReport.ps1` | Gathers system information (CPU, memory, disk, OS version) and exports it to CSV |
 
-| `cleanup.ps1` | Clears temp files and runs Disk Cleanup automatically |
+| `Cleanup.ps1` | Clears temp files and runs Disk Cleanup automatically |
 
-| `bulk\_add\_users.ps1` | Adds multiple users to Active Directory from a CSV file |
+| `bulk\_add\_users.ps1` | Adds multiple users to Active Directory from a CSV file | `To be added`
 
 # Skills Demonstrated
 - PowerShell automation and scripting
