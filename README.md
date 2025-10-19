@@ -24,7 +24,7 @@ A collection of PowerShell scripts I use to learn and automate common Windows sy
 Clone this repository:
 
 powershell
-- git clone git@github.com:YourUsername/powershell-scripts.git
+- git clone git@github.com:Username/powershell-scripts.git
 - cd powershell-scripts
 
 Then run a script:
