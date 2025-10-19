@@ -1,9 +1,4 @@
-# powershell-scripts
-
-Powershell scripts I use
-
 # PowerShell Scripts
-
 A collection of PowerShell scripts I use to learn and automate common Windows system administration tasks.
 
 # Scripts Included
