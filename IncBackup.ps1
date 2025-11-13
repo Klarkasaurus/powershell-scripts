@@ -1,3 +1,3 @@
-﻿$Source = "$env:USERPROFILE\OneDrive\Documents"$Destination = "D:\Backups\Incremental"$LastBackup = Get-ChildItem $Destination | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+﻿# Incremental Backup$Source = "$env:USERPROFILE\OneDrive\Documents"$Destination = "D:\Backups\Incremental"$LastBackup = Get-ChildItem $Destination | Sort-Object LastWriteTime -Descending | Select-Object -First 1
 if (!(Test-Path $Destination)) { New-Item -ItemType Directory -Path $Destination }
 # Only copy new or changed filesRobocopy $Source $Destination /M /Z /R:3 /W:5Write-Output "Incremental backup complete at $(get-date)" | out-file "C:\Users\klark\OneDrive\Documents\PS Scripts\IncBackupLog.txt" -Append
